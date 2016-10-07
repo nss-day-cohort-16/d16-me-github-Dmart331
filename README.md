@@ -8,12 +8,10 @@ Run the following command in your terminal:
 mkdir -p ~/workspace/quizzes/static-web/github && cd $_
 ```
 
-This will create a project folder and cd you into it.
+This will create a project folder and cd you into it. 
 
-When you are ready to start the quiz, request the Github Classroom link from your instructor  
-
-+ Once your repository is created on GitHub, copy the list of commands under **"..or create a new repository on the command line"** by clicking on the clipboard icon  
-+ Paste the commands into your terminal. This will create a README.md file, add it, commit it, connect your local repo to GitHub, and set you up to push up the changes. (If the last command, `git push origin master` isn't automatically executed, hit enter/return to run it).
+Click the green "clone or download" button and then click the clipboard icon to copy the url for this repo.  
+On the command line type `git clone` and then paste in the copied url and hit return/enter. This will pull this repo into your local folder and initialize a local repo for you. **Note:** You do not need to run `git init` or `git remote add origin` when cloning like this.
 
 All of your quiz work should be on a branch, NOT on master. To do this, type:
 
